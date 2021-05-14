@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            padding: 0;
+            background-color: brown;
+        }
+    
+        .img1 img{
+            width: 200px;
+        }
+        .column{
+        position: absolute;
+        right: 34px;
+        top:20px;
+        display: inline-block;
+
+    }
+        .companyname{
+            text-align: center;
+            padding: 18px;
+            
+        }
+             .nav li{
+        display: inline-block;
+        text-align: center;
+        padding: 30px 20px;
+        line-height: 25px;
+        font-size: 17px;
+        
+    }
+    .nav li a {
+        color: blueviolet;
+        display: inline-block;
+        text-decoration: none;
+        padding: 25px 15px;
+    }
+    .nav li a:hover,.nav li a.active{
+        text-decoration: underline;
+        color: chartreuse;
+    }
+    .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .column1{
+            float: left;
+            width: 50%;
+            padding: 16px;
+        }
+        .column1 img{
+            float: left;
+            width: 50%;
+        }
+        .column2{
+            float: left;
+            width: 25%;
+            padding: 16px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+        
+        }
+        .footernav{
+            text-align: right;
+            padding: 4pPx;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="img1">
+                <img src="./IMG_20210510_210853.png" alt="">
+            </div>
+            <div class="companyname">
+                <h1>OUR CREATION</h1>
+            </div>
+            <div class="column">
+                <h2>some description text</h2>
+            </div>
+    
+        </div>
+    </header>
+    <ul class="nav">
+        <li><a href="#" class="active">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">details</a></li>
+        <li><a href="#">contact us</a></li>
+    </ul>
+
+</div>
+<main>
+    <div class="row">
+        <div class="column1">
+            <img src="./IMG-20190313-WA0011.jpg" alt="">
+        </div>
+        <div class="column1">
+            <h2>coulmn 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda magni rerum fugiat velit nemo natus aut voluptatem laudantium molestiae facere. Incidunt aperiam magni ipsa nemo itaque totam molestias maxime nobis?</p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="column2">
+            <h2>column 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nesciunt consequatur, quis ducimus voluptates molestias ratione officiis expedita in asperiores magnam omnis pariatur aut optio sapiente quaerat inventore voluptatibus? Vel?</p>
+        </div>
+        <div class="column2">
+            <h2>column 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae accusantium praesentium quod? Deserunt doloribus voluptatem ab illo officia. Beatae perferendis repudiandae, nesciunt sunt necessitatibus sit reprehenderit est placeat atque.</p>
+        </div>
+        <div class="column2">
+            <h2>column 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est saepe, asperiores, aperiam nam beatae fugit blanditiis illum mollitia aspernatur, recusandae possimus expedita eaque. Similique ex natus sit debitis velit maiores?</p>
+        </div>
+        <div class="column2">
+            <h2>column 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quos qui magnam repellendus? Nobis, sunt. Reiciendis, asperiores, voluptatum reprehenderit voluptate veniam facere ipsum excepturi cupiditate quod eligendi perferendis, deserunt ut?</p>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+    <p>&copy; apurbaghosh</p>
+    </div>
+        <ul class="footernav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+    
+        
+
+    </div>
+</footer>
+</body>
+</html>
